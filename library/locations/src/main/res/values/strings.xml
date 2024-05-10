@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Locations</string>
+    <string name="notification_title">Tracking location...</string>
+    <string name="notification_stop_text">Stop location updates</string>
+</resources>
