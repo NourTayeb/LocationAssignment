@@ -17,7 +17,7 @@ To integrate the SDK into your Android project, follow these steps:
 1. Add the SDK to your project's dependencies.
    ```groovy
    dependencies {
-       implementation 'com.bird.locations:1.0.0'
+       implementation 'com.github.NourTayeb:LocationAssignment:1.0.0'
    }
    ```
 
