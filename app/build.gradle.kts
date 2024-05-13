@@ -51,9 +51,9 @@ android {
 }
 
 dependencies {
-//    implementation (project(":library:locations"))
+    implementation (project(":library:locations"))
 
-    implementation ("com.github.nourtayeb:locationassignment:1.0.6")
+//    implementation ("com.github.nourtayeb:locationassignment:1.0.8")
     implementation("androidx.core:core-ktx:1.13.1")
     implementation("androidx.lifecycle:lifecycle-runtime-ktx:2.7.0")
     implementation("androidx.activity:activity-compose:1.9.0")
