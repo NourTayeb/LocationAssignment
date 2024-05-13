@@ -66,7 +66,7 @@ afterEvaluate {
                 from (components["release"])
                 groupId = "com.github.NourTayeb"
                 artifactId = "LocationAssignment"
-                version = "1.0.10"
+                version = "1.0.11"
             }
         }
     }
