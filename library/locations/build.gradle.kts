@@ -16,7 +16,7 @@ android {
     }
 
     buildTypes {
-        val apiKey: String = gradleLocalProperties(rootDir).getProperty("LOCATIONS_API_KEY") ?: ""
+        val apiKey: String = gradleLocalProperties(rootDir).getProperty("LOCATIONS_API_KEY") ?: "\"\""
         debug {
             buildConfigField("String", "API_KEY", apiKey) // Required.
             buildConfigField("String", "BASE_URL", "\"https://dummy-api-mobile.api.sandbox.bird.one/\"")  // Required.
@@ -66,7 +66,7 @@ afterEvaluate {
                 from (components["release"])
                 groupId = "com.github.NourTayeb"
                 artifactId = "LocationAssignment"
-                version = "1.0.9"
+                version = "1.0.10"
             }
         }
     }
